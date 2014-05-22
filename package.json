@@ -1,0 +1,30 @@
+{
+  "name": "tilelive-xray",
+  "version": "0.0.0",
+  "description": "tilelive data tile visualization",
+  "main": "index.js",
+  "author": "Seth Fitzsimmons <seth@mojodna.net>",
+  "license": "ISC",
+  "homepage": "https://github.com/mojodna/tilelive-xray",
+  "bugs": "https://github.com/mojodna/tilelive-xray/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojodna/tilelive-xray.git"
+  },
+  "peerDependencies": {
+    "tilelive": "^4.5.3",
+    "tilelive-vector": "^0.12.1"
+  },
+  "jshintConfig": {
+    "node": true,
+    "globalstrict": true,
+    "curly": true,
+    "sub": true,
+    "indent": 2,
+    "newcap": true,
+    "white": false,
+    "undef": true,
+    "unused": true,
+    "maxlen": 100
+  }
+}
