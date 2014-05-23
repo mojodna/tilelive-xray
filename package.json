@@ -13,7 +13,7 @@
   },
   "peerDependencies": {
     "tilelive": "^4.5.3",
-    "tilelive-vector": "^0.12.1"
+    "tilelive-vector": "^0.13.0"
   },
   "jshintConfig": {
     "node": true,
