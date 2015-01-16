@@ -10,6 +10,10 @@ module.exports = function(tilelive, options) {
 
     uri.protocol = uri.protocol.replace(PREFIX, "");
 
+    if (!tilelive.protocols["vector:"]) {
+      return setImmediate(callback, new Error("tilelive-vector is unavailable."));
+    }
+
     return new tilelive.protocols["vector:"].xray({ uri: uri }, callback);
   };
 

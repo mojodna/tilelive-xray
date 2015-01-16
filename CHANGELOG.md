@@ -4,6 +4,7 @@
 
 * Relax `tilelive-vector` peer dependency
 * Relax `tilelive` peer dependency
+* Fail cleanly when a `vector:` protocol source is unavailable
 
 ## v0.1.1 - 5/22/14
 
