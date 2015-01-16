@@ -1,5 +1,9 @@
 # Changes
 
+## v0.1.3 - 1/15/15
+
+* Avoid modifying URI references
+
 ## v0.1.2 - 1/15/15
 
 * Relax `tilelive-vector` peer dependency

@@ -2,11 +2,13 @@
 
 var url = require("url");
 
+var clone = require("clone");
+
 var PREFIX = "xray+";
 
 module.exports = function(tilelive, options) {
   var XRay = function(uri, callback) {
-    uri = url.parse(uri, true);
+    uri = url.parse(clone(uri), true);
 
     uri.protocol = uri.protocol.replace(PREFIX, "");
 

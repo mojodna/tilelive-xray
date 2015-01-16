@@ -26,5 +26,8 @@
     "undef": true,
     "unused": true,
     "maxlen": 100
+  },
+  "dependencies": {
+    "clone": "^0.2.0"
   }
 }
