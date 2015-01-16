@@ -1,5 +1,9 @@
 # Changes
 
+## v0.1.2 - 1/15/15
+
+* Relax `tilelive` peer dependency
+
 ## v0.1.1 - 5/22/14
 
 * Upgrade `tilelive-vector` to 0.13.0
