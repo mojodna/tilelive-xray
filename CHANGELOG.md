@@ -2,6 +2,7 @@
 
 ## v0.1.2 - 1/15/15
 
+* Relax `tilelive-vector` peer dependency
 * Relax `tilelive` peer dependency
 
 ## v0.1.1 - 5/22/14
