@@ -27,6 +27,7 @@ module.exports = function(tilelive, options) {
     tilelive.protocols[PREFIX + "mbtiles:"] = this;
     tilelive.protocols[PREFIX + "tilejson+http:"] = this;
     tilelive.protocols[PREFIX + "tilejson+https:"] = this;
+    tilelive.protocols[PREFIX + "tilejson:"] = this;
     tilelive.protocols[PREFIX + "tmsource:"] = this;
   };
 
