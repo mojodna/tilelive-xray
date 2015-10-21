@@ -1,5 +1,9 @@
 # Changes
 
+## v0.2.0 - 10/21/15
+
+* Add `xray+tilejson:` protocol
+
 ## v0.1.3 - 1/15/15
 
 * Avoid modifying URI references
