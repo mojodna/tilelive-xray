@@ -20,15 +20,10 @@ module.exports = function(tilelive, options) {
   };
 
   XRay.registerProtocols = function(tilelive) {
-    // TODO iterate over previously registered protocols and prepend this?
-    tilelive.protocols[PREFIX + "http:"] = this;
-    tilelive.protocols[PREFIX + "https:"] = this;
-    tilelive.protocols[PREFIX + "mapbox:"] = this;
-    tilelive.protocols[PREFIX + "mbtiles:"] = this;
-    tilelive.protocols[PREFIX + "tilejson+http:"] = this;
-    tilelive.protocols[PREFIX + "tilejson+https:"] = this;
-    tilelive.protocols[PREFIX + "tilejson:"] = this;
-    tilelive.protocols[PREFIX + "tmsource:"] = this;
+    var protocols = Object.keys(tilelive.protocols);
+    for (var i in protocols) {
+      tilelive.protocols[PREFIX + protocols[i]] = this;
+    }
   };
 
   XRay.registerProtocols(tilelive);
