@@ -20,10 +20,9 @@ module.exports = function(tilelive, options) {
   };
 
   XRay.registerProtocols = function(tilelive) {
-    var protocols = Object.keys(tilelive.protocols);
-    for (var i in protocols) {
-      tilelive.protocols[PREFIX + protocols[i]] = this;
-    }
+    Object.keys(tilelive.protocols).forEach(function(protocol) {
+      tilelive.protocols[PREFIX + protocol] = this;
+    });
   };
 
   XRay.registerProtocols(tilelive);

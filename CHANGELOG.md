@@ -1,5 +1,9 @@
 # Changes
 
+## v0.3.0
+
+* Support `xray+` all registered tilelive protocols
+
 ## v0.2.0 - 10/21/15
 
 * Add `xray+tilejson:` protocol
