@@ -2,7 +2,7 @@
 
 ## v0.3.0
 
-* Support `xray+` all registered tilelive protocols
+* Support `xray+` all registered tilelive protocols (@JesseCrocker)
 
 ## v0.2.0 - 10/21/15
 
