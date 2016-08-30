@@ -1,6 +1,6 @@
 # Changes
 
-## v0.3.0
+## v0.3.0 - 8/30/16
 
 * Support `xray+` all registered tilelive protocols (@JesseCrocker)
 
