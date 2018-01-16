@@ -1,5 +1,9 @@
 # Changes
 
+## v0.4.0 - 1/16/18
+
+* Use `@mapbox`-scoped packages
+
 ## v0.3.0 - 8/30/16
 
 * Support `xray+` all registered tilelive protocols (@JesseCrocker)

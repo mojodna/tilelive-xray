@@ -12,8 +12,8 @@
     "url": "https://github.com/mojodna/tilelive-xray.git"
   },
   "peerDependencies": {
-    "tilelive": "*",
-    "tilelive-vector": ">=0.13.0"
+    "@mapbox/tilelive": "*",
+    "@mapbox/tilelive-vector": ">=0.13.0"
   },
   "jshintConfig": {
     "node": true,
